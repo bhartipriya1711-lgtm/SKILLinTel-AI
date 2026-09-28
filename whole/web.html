@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SkillPath AI | Skill Intelligence & Learning Platform</title>
+    <script src="web.js" defer></script>
+
+    <link rel="stylesheet" href="web.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="navbar">
+
+        <div class="logo">
+            <div class="logo-icon">S</div>
+
+            <div>
+                <h2>SKILLINTel <span>AI</span></h2>
+                <p >Skill Intelligence Platform</p>
+            </div>
+        </div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#how-it-works">How It Works</a>
+            <a href="#features">Features</a>
+            <a href="#about">About</a>
+        </nav>
+
+        <button class="login-btn" onclick="openLogin()">
+            Login
+        </button>
+
+        <button class="register-btn" onclick="openRegister()">
+            Register
+        </button>
+
+    </header>
+
+
+    <!-- ================= HERO SECTION ================= -->
+
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <div class="badge">
+                AI-Powered Skill Intelligence
+            </div>
+
+            <h1 class="hero-title">
+                <span class="hero-line">Discover Your Skills.</span>
+                <span class="hero-line accent">Build Your Future.</span>
+            </h1>
+
+            <p>
+                An intelligent learning platform that helps you understand
+                your competencies, identify skill gaps and discover
+                personalized learning opportunities.
+            </p>
+
+            <div class="hero-buttons">
+
+                <button class="primary-btn" onclick="openLogin()">
+                    Get Started →
+                </button>
+
+                <button class="secondary-btn" onclick="scrollToSection('how-it-works')">
+                    Explore Platform
+                </button>
+
+            </div>
+
+            <div class="trust-line">
+                ✓ Personalized Learning &nbsp;&nbsp;
+                ✓ AI-Based Recommendations &nbsp;&nbsp;
+                ✓ Skill Development
+            </div>
+
+        </div>
+
+
+        <!-- HERO VISUAL -->
+
+        <div class="hero-visual">
+
+            <div class="dashboard-card">
+                <img src="woman.png"  class="hero-right img" height="300px" width="440px" >
+               <!----
+                <div class="card-header">
+                    <div>
+                        <small>YOUR SKILL PROFILE</small>
+                        <h3>Skill Intelligence</h3>
+                    </div>
+
+                    <div class="profile-circle">
+                        72%  -->
+                    </div>
+                </div>
+               <!----
+                <div class="progress-item">
+                    <div>
+                        <span>Technical Skills</span>
+                        <b>78%</b>
+                    </div>
+
+                    <div class="progress">
+                        <div style="width:78%"></div>
+                    </div>
+                </div>
+
+
+                <div class="progress-item">
+                    <div>
+                        <span>Communication</span>
+                        <b>65%</b>
+                    </div>
+
+                    <div class="progress">
+                        <div style="width:65%"></div>
+                    </div>
+                </div>
+
+
+                <div class="progress-item">
+                    <div>
+                        <span>Problem Solving</span>
+                        <b>73%</b>
+                    </div>
+
+                    <div class="progress">
+                        <div style="width:73%"></div>
+                    </div>
+                </div>
+
+
+                <div class="recommendation">
+
+                    <div class="ai-icon">✦</div>
+
+                    <div>
+                        <strong>AI Recommendation</strong>
+                        <p>
+                            Improve your Python & Data Analysis skills
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>-->
+
+    </section>
+
+
+
+    <!-- ================= PROBLEM / INTRO ================= -->
+
+    <section class="intro" id="about">
+
+        <div class="section-heading">
+
+            <div class="small-title">
+                WHY SKILL INTELLIGENCE?
+            </div>
+
+            <h2>
+                Turn your skills into a
+                <span>clear learning journey.</span>
+            </h2>
+
+            <p>
+                Many learners and professionals do not know which skills
+                they currently possess, which competencies they need to
+                improve, or what learning resources are relevant to them.
+            </p>
+
+        </div>
+
+
+        <div class="problem-cards">
+
+            <div class="problem-card">
+
+                <img src="know.png" class="problem-icon">  </img>
+            <div class ="problem">
+                <h3>Know Your Skills</h3>
+
+                <p>
+                    Build a clear profile of your current competencies
+                    through structured skill assessment.
+                </p>
+            </div>
+            </div>
+
+
+            <div class="problem-card">
+
+                <img src="gaaap.jpg"  class="problem-icon"  width="300px"></img>
+                <div class ="problem">
+                <h3>Identify Skill Gaps</h3>
+
+                <p>
+                    Understand the difference between your current skills
+                    and the competencies required for your goals.
+                </p>
+            </div>
+            </div>
+
+
+            <div class="problem-card">
+
+                <img src ="rr.jpeg" class="problem-icon" width="300px"> </img>
+               <div class ="problem">
+                <h3>Learn What Matters</h3>
+
+                <p>
+                    Receive personalized recommendations for courses
+                    and learning resources.
+                </p>
+             </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= HOW IT WORKS ================= -->
+
+    <section class="how-it-works" id="how-it-works">
+
+        <div class="section-heading">
+
+            <div class="small-title">
+                SIMPLE & INTELLIGENT
+            </div>
+
+            <h2>
+                How the platform <span>works</span>
+            </h2>
+
+            <p>
+                A simple journey from skill assessment to continuous
+                improvement.
+            </p>
+
+        </div>
+
+
+        <div class="steps">
+
+            <div class="step">
+
+                <div class="step-number">01</div>
+
+                <img src="cc.png" class="step-icon" width="200px">
+
+                <h3>Create Profile</h3>
+
+                <p>
+                    Login and create your official learner profile.
+                </p>
+
+            </div>
+
+
+            <div class="line"></div>
+
+
+            <div class="step">
+
+                <div class="step-number">02</div>
+
+                <img src="com.png" class="step-icon">
+
+                <h3>Assess Competency</h3>
+
+                <p>
+                    Evaluate your existing knowledge and competencies.
+                </p>
+
+            </div>
+
+
+            <div class="line"></div>
+
+
+            <div class="step">
+
+                <div class="step-number">03</div>
+
+                <img src="find.png" class="step-icon">
+
+                <h3>Find Skill Gaps</h3>
+
+                <p>
+                    AI identifies areas where improvement is required.
+                </p>
+
+            </div>
+
+
+            <div class="line"></div>
+
+
+            <div class="step">
+
+                <div class="step-number">04</div>
+
+                <img src="improve.png" class="step-icon">
+
+                <h3>Learn & Improve</h3>
+
+                <p>
+                    Follow personalized learning recommendations.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= FEATURES ================= -->
+
+    <section class="features" id="features">
+
+        <div class="section-heading">
+
+            <div class="small-title">
+                PLATFORM FEATURES
+            </div>
+
+            <h2>
+                Everything you need for
+                <span>skill development.</span>
+            </h2>
+
+        </div>
+
+
+        <div class="feature-grid">
+
+            <div class="feature-card">
+
+               <!-- <div class="feature-icon">👤</div>-->
+
+                <h3 class="fea">Official Profile</h3>
+
+                <p>
+                    Maintain a centralized profile containing your
+                    learning and competency information.
+                </p>
+
+            </div>
+
+
+            <div class="feature-card">
+
+              <!--  <div class="feature-icon">🧠</div>-->
+
+                <h3 class="fea">AI Skill Intelligence</h3>
+
+                <p>
+                    Analyze your competencies and understand your
+                    current skill level.
+                </p>
+
+            </div>
+
+
+            <div class="feature-card">
+
+                <!--<div class="feature-icon">📊</div>-->
+
+                <h3 class="fea">Skill Gap Analysis</h3>
+
+                <p>
+                    Identify the skills that need improvement based
+                    on your learning goals.
+                </p>
+
+            </div>
+
+
+            <div class="feature-card">
+
+               <!---<div class="feature-icon">🎯</div>-->
+
+                <h3 class="fea">Personalized Recommendations</h3>
+
+                <p>
+                    Get relevant courses and resources based on
+                    your individual skill gaps.
+                </p>
+
+            </div>
+
+
+            <div class="feature-card">
+
+                <!--<div class="feature-icon">📚</div>-->
+
+                <h3 class="fea">Learning Path</h3>
+
+                <p>
+                    Follow a structured pathway designed around
+                    your competency development.
+                </p>
+
+            </div>
+
+
+            <div class="feature-card">
+
+               <!--- <div class="feature-icon">🏆</div>-->
+
+                <h3 class="fea">Continuous Assessment</h3>
+
+                <p>
+                    Track your progress through assessments and
+                    updated competency results.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= PLATFORM FLOW ================= -->
+
+    <section class="platform-flow">
+
+        <div class="flow-content">
+
+            <div class="flow-text">
+
+                <div class="small-title">
+                    YOUR LEARNING JOURNEY
+                </div>
+
+                <h2>
+                    From assessment to
+                    <span>achievement.</span>
+                </h2>
+
+                <p>
+                    SkillPath AI creates a continuous learning cycle.
+                    Your competency profile evolves as you learn,
+                    practice and complete assessments.
+                </p>
+
+                <button class="primary-btn" onclick="openLogin()">
+                    Start Your Journey →
+                </button>
+
+            </div>
+
+
+            <div class="flow-diagram">
+
+                <div class="flow-box">
+                    <strong>Competency</strong>
+                    <small>Assess</small>
+                </div>
+
+                <div class="arrow">↓</div>
+
+                <div class="flow-box">
+                    <strong>Skill Gap</strong>
+                    <small>Identify</small>
+                </div>
+
+                <div class="arrow">↓</div>
+
+                <div class="flow-box">
+                    <strong>Learning</strong>
+                    <small>Improve</small>
+                </div>
+
+                <div class="arrow">↓</div>
+
+                <div class="flow-box">
+                    <strong>Assessment</strong>
+                    <small>Measure</small>
+                </div>
+
+                <div class="arrow">↓</div>
+
+                <div class="flow-box final-box">
+                    <strong>Updated Skills</strong>
+                    <small>Grow</small>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= CTA ================= -->
+
+    <section class="cta">
+
+        <div>
+
+            <div class="small-title">
+                READY TO BEGIN?
+            </div>
+
+            <h2>
+                Build skills that move
+                <span>you forward.</span>
+            </h2>
+
+            <p>
+                Login to access your personalized skill intelligence
+                dashboard and begin your learning journey.
+            </p>
+
+            <button class="white-btn" onclick="openLogin()">
+                Login to Platform →
+            </button>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="footer-logo">
+            <div class="logo-icon">S</div>
+
+            <div>
+                <h3>SkillPath AI</h3>
+                <p>Skill Intelligence & Learning Platform</p>
+            </div>
+        </div>
+
+
+        <div class="footer-links">
+
+            <a href="#home">Home</a>
+            <a href="#how-it-works">How It Works</a>
+            <a href="#features">Features</a>
+            <a href="#about">About</a>
+
+        </div>
+
+
+        <p class="copyright">
+            © 2026 SkillPath AI. Prototype for Smart India Hackathon.
+        </p>
+
+    </footer>
+
+
+
+    <!-- ================= LOGIN MODAL ================= -->
+
+    <div class="modal" id="loginModal">
+
+        <div class="login-box">
+
+            <button class="close-btn" onclick="closeLogin()">×</button>
+
+            <div class="login-logo">
+                S
+            </div>
+
+            <h2>Welcome to Skillintel</h2>
+
+            <p>
+                Login to access your personalized skill dashboard.
+            </p>
+
+
+            <label>Email / User ID</label>
+
+            <input
+                type="text"
+                id="email"
+                placeholder="Enter your email or ID"
+            >
+
+
+            <label>Password</label>
+
+            <input
+                type="password"
+                id="password"
+                placeholder="Enter your password"
+            >
+
+            <a href="dash.html">
+            <button class="primary-btn login-submit" onclick="loginUser()" >
+                Login →
+            </button></a>
+
+            <p class="register-prompt">
+                New user? <button type="button" onclick="switchToRegister()">Create an account</button>
+            </p>
+
+            <p class="login-note">
+                Demo prototype • Authentication will be connected later
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- ================= REGISTER MODAL ================= -->
+
+    <div class="modal" id="registerModal">
+
+        <div class="login-box register-box">
+
+            <button class="close-btn" onclick="closeRegister()">×</button>
+
+            <div class="login-logo">
+                S
+            </div>
+
+            <h2>Create your SkillPath account</h2>
+
+            <p>
+                Register to start your personalized skill journey.
+            </p>
+
+            <label for="registerName">Full Name</label>
+            <input type="text" id="registerName" placeholder="Enter your full name">
+
+            <label for="registerEmail">Email / User ID</label>
+            <input type="email" id="registerEmail" placeholder="Enter your email or ID">
+
+            <label for="registerPassword">Password</label>
+            <input type="password" id="registerPassword" placeholder="Create a password">
+
+            <label for="confirmPassword">Confirm Password</label>
+            <input type="password" id="confirmPassword" placeholder="Re-enter your password">
+
+            <button class="primary-btn login-submit" onclick="registerUser()">
+                Create Account →
+            </button>
+
+            <p class="register-prompt">
+                Already have an account? <button type="button" onclick="switchToLogin()">Login</button>
+            </p>
+
+            <p class="login-note">
+                Demo prototype • Authentication will be connected later
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
