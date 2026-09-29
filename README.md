@@ -7,5 +7,5 @@ Features:
 - Personalized Recommendations
 - Learning Path & Continuous Assessment
 
-Live Link: [yaha apna vercel/live link dalna]
+Live Link: under Development 
 Tech Stack: HTML, CSS, JavaScript
