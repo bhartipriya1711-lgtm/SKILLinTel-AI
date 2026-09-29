@@ -7,5 +7,4 @@ Features:
 - Personalized Recommendations
 - Learning Path & Continuous Assessment
 
-Live Link: under Development 
 Tech Stack: HTML, CSS, JavaScript
